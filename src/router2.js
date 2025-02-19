@@ -6,7 +6,7 @@ export default function Router2() {
     return(
         <BrowserRouter>
             <nav className="nav">   
-            
+
                 <NavLink to='/'  className={({isActive})=>isActive?"active_menu":"menu"}
                 style={({isActive})=>{
                     return{
@@ -19,7 +19,7 @@ export default function Router2() {
 
                 <NavLink to='/contact' className={({isActive})=>isActive?"active+menu":"menu"}>Contact Us</NavLink>
             
-            </nav>
+            </nav> 
         </BrowserRouter>
     )
 }
